@@ -14,18 +14,18 @@ window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Flappy Arnav")
 
 # Images
-bird_images = [pygame.image.load("flappy_bird/bird_down.png"),
-               pygame.image.load("flappy_bird/bird_mid.png"),
-               pygame.image.load("flappy_bird/bird_up.png")]
-skyline_image = pygame.image.load("flappy_bird/background.png")
-ground_image = pygame.image.load("flappy_bird/ground.png")
-top_pipe_image = pygame.image.load("flappy_bird/pipe_top.png")
-bottom_pipe_image = pygame.image.load("flappy_bird/pipe_bottom.png")
-start_image = pygame.image.load("flappy_bird/start.png")
-game_over_image = pygame.image.load("flappy_bird/game_over.png")
+bird_images = [pygame.image.load("bird_down.png"),
+               pygame.image.load("bird_mid.png"),
+               pygame.image.load("bird_up.png")]
+skyline_image = pygame.image.load("background.png")
+ground_image = pygame.image.load("ground.png")
+top_pipe_image = pygame.image.load("pipe_top.png")
+bottom_pipe_image = pygame.image.load("pipe_bottom.png")
+start_image = pygame.image.load("start.png")
+game_over_image = pygame.image.load("game_over.png")
 
 # Game Variables
-scroll_speed = 1
+scroll_speed = 2
 bird_start_position = (100, 250)
 score = 0
 font = pygame.font.SysFont('Segoe', 26)
