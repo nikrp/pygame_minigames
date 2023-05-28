@@ -2,6 +2,7 @@
 import pygame
 from sys import exit
 import random
+from os import chdir
 
 # Initialize Pygame and Start the Clock
 pygame.init()
